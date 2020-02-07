@@ -11,9 +11,8 @@ exports.sourceNodes = async ({
     baseURL: '',
     folder: '',
     accessToken: '',
-    sanitizeHtmlConfig: {},    
+    sanitizeHtmlConfig: {},
     customComponents: [],
-    availableLngs: []
   }
   
   const config = Object.assign(defaultConfig, pluginOptions.cockpitConfig);
@@ -35,9 +34,9 @@ exports.sourceNodes = async ({
 
   assets.forEach(asset => asset.path = host + '/storage/uploads' + asset.path);
 
-  extendNodeType.inputs.collectionsItems = collectionsItems;
-  extendNodeType.inputs.singletonsItems = singletonsItems;
-  extendNodeType.inputs.collectionsNames = collectionNames;
+  exports.collectionsItems = collectionsItems;
+  exports.singletonsItems = singletonsItems;
+  exports.collectionsNames = collectionNames;
  
   const assetMapHelpers = new AssetMapHelpers({
     assets,

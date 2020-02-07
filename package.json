@@ -1,12 +1,73 @@
 {
-  "name": "gatsby-plugin-cockpit",
-  "description": "Gatsby source plugin for Cockpit headless CMS API.",
-  "author": "Paul Hayes <paul@ginetta.net>",
-  "version": "1.1.4",
-  "keywords": ["gatsby", "gatsby-plugin", "gatsby-source-plugin", "cockpit"],
-  "license": "MIT",
+  "_from": "gatsby-plugin-cockpit",
+  "_id": "gatsby-plugin-cockpit@1.0.39",
+  "_inBundle": false,
+  "_integrity": "sha512-rYx2tYrFZUSbhCR4XXZDTCcADNB0JKCullkSWA0q4ZBrP0JHREqIDvEz3CHudHupfYaxh1UrkyQwngH2k2D0/w==",
+  "_location": "/gatsby-plugin-cockpit",
+  "_phantomChildren": {
+    "arr-flatten": "1.1.0",
+    "async-each": "1.0.3",
+    "babel-cli": "6.26.0",
+    "babel-runtime": "6.26.0",
+    "better-queue": "3.8.10",
+    "bluebird": "3.7.2",
+    "decompress-response": "3.3.0",
+    "duplexer3": "0.1.4",
+    "expand-range": "1.8.2",
+    "filename-regex": "2.0.1",
+    "fsevents": "1.2.11",
+    "graceful-fs": "4.2.3",
+    "inherits": "2.0.4",
+    "is-binary-path": "1.0.1",
+    "is-buffer": "1.1.6",
+    "is-plain-obj": "1.1.0",
+    "is-posix-bracket": "0.1.1",
+    "is-retry-allowed": "1.2.0",
+    "is-stream": "1.1.0",
+    "isurl": "1.0.0",
+    "jsonfile": "4.0.0",
+    "lowercase-keys": "1.0.1",
+    "md5-file": "3.2.3",
+    "normalize-path": "2.1.1",
+    "object.omit": "2.0.1",
+    "p-finally": "1.0.0",
+    "parse-glob": "3.0.4",
+    "path-is-absolute": "1.0.1",
+    "preserve": "0.2.0",
+    "readdirp": "2.2.1",
+    "regex-cache": "0.4.4",
+    "repeat-element": "1.1.3",
+    "safe-buffer": "5.1.2",
+    "timed-out": "4.0.1",
+    "universalify": "0.1.2",
+    "url-to-options": "1.0.1",
+    "valid-url": "1.0.9"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "gatsby-plugin-cockpit",
+    "name": "gatsby-plugin-cockpit",
+    "escapedName": "gatsby-plugin-cockpit",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/gatsby-plugin-cockpit/-/gatsby-plugin-cockpit-1.0.39.tgz",
+  "_shasum": "86533f1cb0b04166b36292980033d306612fdc5c",
+  "_spec": "gatsby-plugin-cockpit",
+  "_where": "/home/camille/Documents/Apprentissage/devweb/gatsbyXcockpit",
+  "author": {
+    "name": "Paul Hayes",
+    "email": "paul@ginetta.net"
+  },
+  "bundleDependencies": false,
   "dependencies": {
-    "cockpit-sdk": "^0.13.0",
+    "cockpit-sdk": "^0.9.4",
     "gatsby-source-filesystem": "^1.5.15",
     "graphql-type-json": "^0.1.4",
     "html-to-react": "^1.3.3",
@@ -15,6 +76,8 @@
     "sanitize-html": "^1.17.0",
     "valid-url": "^1.0.9"
   },
+  "deprecated": false,
+  "description": "Gatsby source plugin for Cockpit headless CMS API.",
   "devDependencies": {
     "babel-eslint": "^8.2.1",
     "eslint": "^4.16.0",
@@ -24,5 +87,14 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-markdown": "^1.0.0-beta.6",
     "eslint-plugin-react": "^7.5.1"
-  }
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-plugin",
+    "cockpit"
+  ],
+  "license": "MIT",
+  "name": "gatsby-plugin-cockpit",
+  "version": "1.0.39"
 }
